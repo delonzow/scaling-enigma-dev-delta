@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Cinnamon Oat Breakfast Bowl",
+    "category": "Breakfast",
+    "description": "A warm, simple breakfast bowl with oats, cinnamon, and fruit.",
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=900&q=80",
+    "prepTime": 10,
+    "servings": 2,
+    "ingredients": [
+      "1 cup rolled oats",
+      "1 cup milk",
+      "1/2 teaspoon cinnamon",
+      "1 tablespoon maple syrup",
+      "1/2 cup berries"
+    ],
+    "instructions": [
+      "Warm the oats and milk together in a saucepan until creamy.",
+      "Stir in the cinnamon and maple syrup.",
+      "Top with berries and serve immediately."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lemon Herb Chicken Tray Bake",
+    "category": "Dinner",
+    "description": "A bright sheet-pan dinner with chicken, potatoes, and vegetables.",
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80",
+    "prepTime": 35,
+    "servings": 4,
+    "ingredients": [
+      "4 chicken thighs",
+      "1 pound potatoes, cubed",
+      "2 carrots, sliced",
+      "2 tablespoons olive oil",
+      "1 lemon, zested and sliced",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat the oven to 425 degrees Fahrenheit.",
+      "Toss the vegetables and chicken with oil, lemon, and seasoning.",
+      "Spread on a tray and roast for 30 to 35 minutes until cooked through."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "No-Bake Peanut Butter Bars",
+    "category": "Dessert",
+    "description": "Easy bars with a rich peanut butter filling and crunchy crust.",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80",
+    "prepTime": 20,
+    "servings": 8,
+    "ingredients": [
+      "2 cups crushed graham crackers",
+      "1/2 cup melted butter",
+      "1 cup peanut butter",
+      "1/2 cup honey",
+      "1 cup dark chocolate chips"
+    ],
+    "instructions": [
+      "Mix the cracker crumbs with melted butter and press into a pan.",
+      "Warm the peanut butter and honey together until smooth.",
+      "Spread over the crust and chill.",
+      "Melt the chocolate chips and drizzle over the top before slicing."
+    ]
+  }
+]

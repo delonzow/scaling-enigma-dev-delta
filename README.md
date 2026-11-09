@@ -3,29 +3,26 @@
 
 **Author:** delonzow  
 **Course/Project:** Dev-Delta  
-**Version:** 0.4  
+**Version:** 1.0  
 **Date:** 2026-11-09
 
 ## Problem and Narrative
 
-RecipeBox began as a static front-end mockup and has evolved into a simple data-driven application that demonstrates how a browser app can authenticate a user, track session state, and manage recipe data with front-end CRUD operations. The app helps home cooks browse a collection of recipes, add their own ideas, and understand how user role and app data move through a browser-based application.
+RecipeBox began as a static front-end mockup and has evolved into a simple data-driven application that demonstrates how a browser app can authenticate a user, track session state, and manage recipe data. The app helps home cooks browse a collection of recipes, add their own ideas, and understand how user role and app data move through a browser-based application.
 
 ## User Story
 
 - As a home cook, I want to browse recipes and sign in to manage them.
 - As a regular user, I want to create and update recipes without affecting admin-only controls.
 - As an admin, I want to manage the full collection and inspect the current session state.
-- As a developer, I want to see the active app state and session data in a readable JSON format.
 
 ## Current Functionality
 
 - Authentication for the two development test accounts
 - Role-based authorization between admin and regular user
 - JSON-backed recipe data loaded with fetch()
-- CRUD interactions for recipe records through the DOM
 - Session-based persistence using sessionStorage
 - Admin dashboard that displays current session data and app state
-- Console logging for beginner-friendly debugging and testing
 
 ## Authentication and Authorization
 
@@ -42,7 +39,7 @@ The credentials are also written to the browser console when the app loads so th
 - Admin: can browse, create, edit, and delete recipes, and access the admin dashboard
 
 ## Data Flow
-
+```
 AUTH ────────────────┐
                      │
 STATIC JSON ──fetch()─┼──→ appState
@@ -50,7 +47,7 @@ STATIC JSON ──fetch()─┼──→ appState
 USER INPUT ───────────┘   sessionStorage
                              ↓
                             DOM
-
+```
 ## Technology Stack
 
 - HTML5
@@ -65,6 +62,7 @@ USER INPUT ───────────┘   sessionStorage
 
 ## Project Structure
 
+```
 scaling-enigma-dev-delta/
 ├── assets/
 │   ├── data/
@@ -78,9 +76,8 @@ scaling-enigma-dev-delta/
 │   ├── admin.html
 │   └── signin.html
 ├── index.html
-├── README.md
-└── .git/
-
+└── README.md
+```
 ## Testing
 
 - Open the home page and verify the console contains the development credentials.
@@ -107,10 +104,8 @@ scaling-enigma-dev-delta/
 - Bootstrap documentation for layout and component styling
 - Normalize.css, Bootstrap Icons, and Google Fonts from public CDNs
 - Unsplash image sources for recipe visuals
-- GitHub Copilot used to refine the front-end logic, session flow, and admin dashboard structure
 
 ## Repository Status
 
 - The Bravo version was preserved in Git on the bravo branch before Delta changes were introduced.
 - The active Delta iteration continues on the main branch.
-
